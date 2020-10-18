@@ -15,5 +15,12 @@ module.exports = {
         types: [`Page`, `Post`],
       },
     },
+    {
+      resolve: 'gatsby-source-blogger',
+      options: {
+        apiKey: 'AIzaSyATZwUXVEBWk9mPan_ZACbdF2WM9bgdCUk',
+        blogId: '4927059890371501079'
+        }
+      }
   ],
 }
